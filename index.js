@@ -9,7 +9,7 @@ module.exports = {
       'capIsNewExceptions': ['Map', 'Set', 'List', 'Promise'],
     }],
     'max-len': ['error', { 'code': 120, 'tabWidth': 2, 'ignoreComments': true }],
-    'quote-props': ['error', 'always'],
+    'quote-props': ['error', 'consistent-as-needed'],
   },
   'env': {
     'browser': true,
